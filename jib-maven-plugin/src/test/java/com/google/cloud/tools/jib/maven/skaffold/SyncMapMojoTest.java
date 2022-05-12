@@ -35,9 +35,11 @@ import org.apache.maven.it.VerificationException;
 import org.apache.maven.it.Verifier;
 import org.junit.Assert;
 import org.junit.ClassRule;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /** Tests for {@link SyncMapMojo}. */
+@Ignore
 public class SyncMapMojoTest {
 
   @ClassRule public static final TestProject simpleTestProject = new TestProject("simple");
